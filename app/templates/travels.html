@@ -1,0 +1,79 @@
+<head>
+    <style>
+      h1 {
+        color: whitesmoke;
+    text-shadow: 3px 3px 5px #000000;
+  }
+    h1 {
+    text-decoration: underline;
+  }
+      body {
+        background-image: url("https://assets.wallpapersin4k.org/uploads/2017/04/Latest-Luxury-Volvo-Bus-Wallpaper-1.jpg");
+        background-size: cover;
+        min-height: 101%;
+        min-width: 101%;
+        background-position: center center;
+        height: 690px;
+      }
+    </style>
+  </head>
+<body>
+<div <style="text-align: relative; left: 15px; top: 15px;"><u> Select Travels:<u></div>
+{% if country=='USA' %}
+    {% for list1 in list1 %}
+    <a>
+      <ul>
+        <li><a href='{{link[list1]}}'> {{list1}} </a></li>
+      </ul>
+
+    </a>
+{% endfor %}
+{%endif%}
+
+
+
+{%if country=='INDIA'%}
+{% for list1 in list1%}
+    <a>
+      <ul>
+        <li><a href='{{link[list1]}}'> {{list1}} </a></li>
+      </ul>
+
+    </a>
+    {% endfor %}
+{%endif%}
+
+{%if country=='UK'%}
+{% for list1 in list1 %}
+    <a>
+      <ul>
+        <li><a href='{{link[list1]}}'> {{list1}} </a></li>
+      </ul>
+
+    </a>
+    {% endfor %}
+{%endif%}
+
+{%if country=='AUSTRALIA'%}
+{% for list1 in list1 %}
+    <a>
+      <ul>
+        <li><a href='{{link[list1]}}'> {{list1}} </a></li>
+      </ul>
+
+    </a>
+    {% endfor %}
+{%endif%}
+
+
+{%if country=='GERMANY'%}
+{% for list1 in list1 %}
+    <a>
+      <ul>
+        <li><a href='{{link[list1]}}'> {{list1}} </a></li>
+      </ul>
+
+    </a>
+    {% endfor %}
+{%endif%}
+ </body>

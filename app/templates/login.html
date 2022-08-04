@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      color: black;
+  text-shadow: 3px 3px 5px #000000;
+}
+  h1 {
+  text-decoration: underline;
+}
+    #myDIV {
+      background-image: url("https://wallpapercave.com/wp/wp3779111.jpg");
+      background-size: cover;
+      min-height: 101%;
+      min-width: 101%;
+      background-position: center center;
+      height: 690px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="myDIV">
+<h1>GLOBAL TRAVELS</h1>
+
+<marquee behavior="scroll" direction="left" <div style="text-align: relative; left: 20px; top: 20px;"> COMMUTING MADE EASY</marquee>
+<h2 align="center" style="color:blue;" >WELCOME!</h2>
+<marquee behavior="scroll" direction="left" <div style="position: absolute; bottom: 17px;>" >This website is under development stage!</marquee>
+<div <style="text-align: relative; left: 15px; top: 15px;"><u> Select country:<u></div>
+{% for countr in country%}
+    <a>
+      <ul>
+        <li><a href="{{ countr }}"> {{countr}} </a></li>
+      </ul>
+
+    </a>
+
+{%endfor %}
+  </div>
+</body>
+</html>  
+
+    
